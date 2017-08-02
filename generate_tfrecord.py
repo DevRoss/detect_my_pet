@@ -2,9 +2,9 @@
 Usage:
   # From tensorflow/models/
   # Create train data:
-  python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=/data/train.record
+  python generate_tfrecord.py --csv_input=data/train_labels.csv  --output_path=data/train.record
   # Create test data:
-  python generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=/data/test.record
+  python generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=data/test.record
 """
 import os
 import io
